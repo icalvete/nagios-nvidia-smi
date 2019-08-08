@@ -21,6 +21,8 @@ Then...
 Go to check_mk.
 Go any host and rediscover services.
 
+https://github.com/icalvete/nagios-nvidia-smi/blob/master/example.jpg
+
 ## TODO
 
 * Warning and critical thresholds are shared between GPU use, GPU Memory use.
