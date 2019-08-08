@@ -8,7 +8,7 @@ Takes measures of GPU user, GPU Memory use and temperature
 
 [Check_Mk](https://checkmk.com/) installation
 
-In every node... (Using [puppet](https://en.wikipedia.org/wiki/Puppet_(software)) or other [SCM](https://en.wikipedia.org/wiki/Software_configuration_management) is extremely recommended)
+In every node... (Using [puppet](https://en.wikipedia.org/wiki/Puppet_(software)) or another [SCM](https://en.wikipedia.org/wiki/Software_configuration_management) is extremely recommended)
 
 ```
 root@gpu:~#cd /lib/check_mk_agent/local
@@ -24,5 +24,5 @@ Go any host and rediscover services.
 ## TODO
 
 * Warning and critical thresholds are shared between GPU use, GPU Memory use.
-* No warning thresholds to temperature
+* No warning and critical thresholds to temperature
 
