@@ -21,7 +21,7 @@ Then...
 Go to check_mk.
 Go any host and rediscover services.
 
-https://github.com/icalvete/nagios-nvidia-smi/blob/master/example.jpg
+![Example](https://github.com/icalvete/nagios-nvidia-smi/blob/master/example.jpg) "Example"
 
 ## TODO
 
