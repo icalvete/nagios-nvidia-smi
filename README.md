@@ -11,7 +11,7 @@ Takes measures of GPU user, GPU Memory use and temperature
 In every node... (Using [puppet](https://en.wikipedia.org/wiki/Puppet_(software)) or another [SCM](https://en.wikipedia.org/wiki/Software_configuration_management) is extremely recommended)
 
 ```
-root@gpu:~#cd /lib/check_mk_agent/local
+root@gpu:~# cd /usr/lib/check_mk_agent/local
 root@gpu:/usr/lib/check_mk_agent/local# git clone https://github.com/icalvete/nagios-nvidia-smi .
 root@gpu:/usr/lib/check_mk_agent/local# bundler install
 ```
